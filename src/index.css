@@ -1,0 +1,54 @@
+/* Beginner CSS */
+
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.card h2 {
+  color: red;
+  font-size: 20px;
+}
+
+.card h3 {
+  color: green;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  background-color: lightyellow;
+  padding: 10px;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+li {
+  color: black;
+  font-weight: bold;
+}
